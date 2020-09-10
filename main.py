@@ -2,7 +2,6 @@
  # Brendan Corso bvc5434@bvc.edu
  # Mack Mason mjm8542@p
 
-lettergrade = "no"
 def getLetterGrade(grade):
   if grade <= 100 and grade >= 93:
     return "A"
@@ -25,7 +24,7 @@ def getLetterGrade(grade):
   
 def run():
   grade = float(input("Enter your CMPSC 131 grade: "))
-  print(f"Your letter grade for CMPSC 131 is {lettergrade(grade)}.")
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(grade)}.")
 
 if __name__ == "__main__":
   run()
