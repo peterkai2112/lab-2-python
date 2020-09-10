@@ -1,6 +1,9 @@
-# jiulong Tang jzt5526@psu.edu
+#author peter schulman pks5481@psu.edu
+#jiulong Tang jzt5526@psu.edu
 # Collaberator brendan Corso bvc5434@bvc.edu
 # collaberator mack mason mjm8542@psu.edu
+# break out room 6
+# section 1
 def getLetterGrade(grade):
   if grade >= 93:
     return "A"
