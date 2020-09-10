@@ -22,7 +22,6 @@ def getLetterGrade(grade):
     return "D"
   else
     return "F"
-  print(f")
   
 def run():
   grade = float(input("Enter your CMPSC 131 grade: "))
